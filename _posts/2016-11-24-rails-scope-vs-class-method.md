@@ -24,7 +24,7 @@ Class method is a method that define in the class that can call my class name.
 {% highlight ruby %}
 class User
   def self.name_like(name)
-    where(‘name ilike ?’, “%#{name}%”)
+    where('name ilike ?', "%#{name}%")
   end
 end
 {% endhighlight %}
@@ -37,8 +37,8 @@ We scope for simple query. Mostly it is really useful we split complex query by 
 Example:
 {% highlight ruby %}
 class Product
-  scope :expensive, -> { where(‘price > ?’, 50) }
-    scope :available, -> { where(‘quantity > ?’, 0) }
+  scope :expensive, -> { where('price > ?', 50) }
+    scope :available, -> { where('quantity > ?', 0) }
 end
 {% endhighlight %}
 
@@ -50,7 +50,7 @@ Example:
 
 {% highlight ruby %}
 class Product
-  scope :name_like, ->(name) { where(‘name ilike ?’, “%#{name}%”) }
+  scope :name_like, ->(name) { where('name ilike ?', "%#{name}%") }
 end
 {% endhighlight %}
 

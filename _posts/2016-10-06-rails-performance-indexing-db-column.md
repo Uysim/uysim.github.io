@@ -53,7 +53,7 @@ end
 {% highlight ruby %}
 class Product < ActiveRecord::Base
   def search(name)
-    where(‘name ilike ?’, “%#{name}%”)
+    where('name ilike ?', "%#{name}%")
   end
 end
 {% endhighlight %}
