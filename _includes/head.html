@@ -29,7 +29,9 @@
   {% endif %}
   {% if page.img %}
     <meta content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.img }}" property="og:image">
-  {% else %}
+  {% elsif site.social-img %}
+    <meta content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.social-img }}" property="og:image">
+  {% else  %}
     <meta content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.author-img }}" property="og:image">
   {% endif %}
   {% if page.categories %}
