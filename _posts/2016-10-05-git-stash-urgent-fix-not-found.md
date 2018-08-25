@@ -23,16 +23,16 @@ Messy stash
 
 ### Solution Here
 Before you switch to other branch please do the following command
-<pre><code>
+```
 git add . --all
 git commit -m 'stash commit'
-</code></pre>
+```
 Both command above will add every file you changed include untracked and deleted files. And put it to a commit in your branch that commit name as '**stash commit**'
 
 Then switch to other branch by git checkout. After finished on the other branch switch back to your branch and do:
-<pre><code>
+```
 git reset HEAD^
-</code></pre>
+```
 This git reset will undo one of your commit and revert it back to files changed, untracked and deleted files.
 
 So now you can go on with your branch safely.
