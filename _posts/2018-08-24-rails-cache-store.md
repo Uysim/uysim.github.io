@@ -47,6 +47,6 @@ The cache will be stored on the **redis server**. Also, you need to integrate wi
 config.cache_store = :mem_cache_store
 ```
 
-**Extra** : I just published my `[gem api-response-cache](https://github.com/Uysim/api-response-cache)` feel free to try it out for you API. I open for feedback on github.
+**Extra** : I just published my [gem api-response-cache](https://github.com/Uysim/api-response-cache) feel free to try it out for you API. I open for feedback on github.
 
 
