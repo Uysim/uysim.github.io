@@ -1,6 +1,6 @@
 title: Uysim Ty | Independent Web Consulting
 description: > # this means to ignore newlines until "baseurl:"
-  I a Ruby on Rails developer. But this blog is not only just rails. It is about development, best practices and style guide.
+  Development, Best Practices and style guide.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://uysim.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -9,7 +9,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Uysim Ty # add your name
 author-img: avatar.jpg # add your photo
-about-author: I a Ruby on Rails developer. But this blog is not only just rails. It is about development, best practices and style guide. # add description
+about-author: "Learning and Development.\n Feedback and Improvement.\n Delivery with Quality."
 social-img: 'social-image.jpg'
 social-twitter: null # add your Twitter handle
 social-facebook: uysim # add your Facebook handle
