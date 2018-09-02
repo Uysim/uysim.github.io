@@ -38,6 +38,14 @@ layout: default
         {% if site.social-email %}
           <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
         {% endif %}
+        {% if site.social-upwork %}
+          <li class="upwork">
+            <a href="{{site.social-upwork}}">
+              <img class='img-responsive' src="/assets/img/upwork.svg">
+            </a>
+          </li>
+        {% endif %}
+
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">
