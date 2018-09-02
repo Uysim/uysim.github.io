@@ -38,7 +38,7 @@ Example:
 {% highlight ruby %}
 class Product
   scope :expensive, -> { where('price > ?', 50) }
-    scope :available, -> { where('quantity > ?', 0) }
+  scope :available, -> { where('quantity > ?', 0) }
 end
 {% endhighlight %}
 
