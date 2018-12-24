@@ -78,3 +78,5 @@ See the method above would be look bad if we handle it by scope. Imagine when ne
 **Conclusion**
 
 We use scope to handle database query (selection) but we must switch to use class method when we need algorithm before get into direct query.
+
+{% include rails_advices.html %}

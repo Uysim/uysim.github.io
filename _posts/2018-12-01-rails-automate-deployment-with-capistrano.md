@@ -165,3 +165,6 @@ cap production deploy
 Then Restart Nginx
 
 Enjoy your deployment! (:
+
+
+{% include rails_advices.html %}

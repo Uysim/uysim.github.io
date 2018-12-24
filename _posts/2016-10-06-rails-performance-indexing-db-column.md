@@ -112,3 +112,6 @@ SELECT users.*, 3958.755864232 * 2 * ASIN(SQRT(POWER(SIN((51.5090970805918 - use
 We can see SQL statement above that geocoder use column lat and long for its complex query which will lead this query to be slower when record up to too many to handle. So the better way is to index this lat and long columns that use by this gem.
 ### Bad of indexing
 Index table’s column will increase the size of record because it will copy that record for sorting it.
+
+
+{% include rails_advices.html %}

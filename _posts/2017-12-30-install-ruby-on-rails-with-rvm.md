@@ -63,3 +63,5 @@ rails -v
 ```
 <br>
 Now you can start with this great framework.
+
+{% include rails_advices.html %}
