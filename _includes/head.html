@@ -4,7 +4,7 @@
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
-    <meta content="{{ site.title }}" property="og:site_name">
+  <meta content="{{ site.title }}" property="og:site_name">
   {% if page.title %}
     <meta content="{{ page.title }}" property="og:title">
   {% else %}
@@ -70,8 +70,11 @@
   {% else %}
     <meta name="twitter:image:src" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.author-img }}">
   {% endif %}
-
-	<meta name="description" content="{{ page.description }}">
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+  {% else %}
+    <meta name="description" content="{{ site.description }}">
+  {% endif %}
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="">

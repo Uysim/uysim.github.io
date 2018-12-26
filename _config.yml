@@ -1,10 +1,14 @@
 title: Uysim Ty | Independent Web Consulting
 description: > # this means to ignore newlines until "baseurl:"
-  Development, Best Practices and style guide.
+  Tips, best Practices and style guides for development,.
+
+
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://uysim.com" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+
+
+site-twitter: https://twitter.com/Uysim1 #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Uysim Ty # add your name
