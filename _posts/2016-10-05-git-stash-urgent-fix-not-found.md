@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Git Stash Urgent Fix Not Found"
-description: ""
+description: "Somework that you should not use git stash"
 img: git-stash-urgent-fix-not-found.jpg
 tags: [Git]
 ---

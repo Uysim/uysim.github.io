@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rails performance indexing DB column"
-description: ""
+description: "Improve your Ruby On Rails queries by index your database columns"
 img: rails-performance-indexing-db-column.jpeg
 tags: [Rails, Database]
 ---

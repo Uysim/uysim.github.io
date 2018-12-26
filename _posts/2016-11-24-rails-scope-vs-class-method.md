@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rails Scope VS Class Method"
-description: ""
+description: "When you should use scope or class method"
 img: scope-vs-class-method.jpeg
 tags: [Rails, Ruby]
 ---
