@@ -445,6 +445,7 @@ template {
 }
 
 .highlight {
+  color: #FFFFFF;
   background-color: #faf9f9;
   -webkit-border-radius: 3px;
           border-radius: 3px;
@@ -452,7 +453,6 @@ template {
 }
 
 .highlighter-rouge {
-  color: #FFFFFF;
   font-weight: 400;
   -webkit-border-radius: 3px;
           border-radius: 3px;
@@ -915,6 +915,7 @@ table tfoot td {
   -webkit-box-shadow: rgba(31, 35, 46, 0.15) 0px 1px 1px 0px;
           box-shadow: rgba(31, 35, 46, 0.15) 0px 1px 1px 0px;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 ::-moz-selection {

@@ -3,7 +3,7 @@ layout: post
 title: "Rails Cache Stores to consider"
 description: "List of Rails cache stores for make decision for your project"
 img: rails-cache-stores-to-consider.jpg
-tags: [Rails]
+tags: [Ruby On Rails, Cache, Performance, Comparation]
 ---
 
 # Rails Cache Stores to consider

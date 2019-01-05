@@ -3,7 +3,7 @@ layout: post
 title: "Rails Scope VS Class Method"
 description: "When you should use scope or class method"
 img: scope-vs-class-method.jpeg
-tags: [Rails, Ruby]
+tags: [Ruby On Rails, Ruby, Comparation]
 ---
 In rails to handle complex query, developers always chain query with scope and class methods. There are many online articles talk about fighting between scope and class method. Those articles talk about when you use them. For my personal experience I really like chain the scope and class method to handle complex query by split their own responsibility for each scope and class method.
 

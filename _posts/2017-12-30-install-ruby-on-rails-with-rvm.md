@@ -3,7 +3,7 @@ layout: post
 title: "Install Ruby On Rails With RVM"
 description: "Installation tutorial for fresh start Ruby On Rails"
 img: install-ruby-on-rails-with-rvm.jpg
-tags: [Rails]
+tags: [Ruby On Rails, Ruby, RVM, Beginner]
 ---
 
 

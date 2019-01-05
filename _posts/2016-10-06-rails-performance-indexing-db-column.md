@@ -3,7 +3,7 @@ layout: post
 title: "Rails performance indexing DB column"
 description: "Improve your Ruby On Rails queries by index your database columns"
 img: rails-performance-indexing-db-column.jpeg
-tags: [Rails, Database]
+tags: [Ruby On Rails, Database, Performance]
 ---
 
 With my latest few projects, I practice on how to improve rails performance. With this blog, I would like to introduce a basic practice to improve query performance in rails by index table column.

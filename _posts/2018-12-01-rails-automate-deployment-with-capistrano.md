@@ -3,7 +3,7 @@ layout: post
 title: "Rails Automate Deployment With Capistrano"
 description: "Guide to rollout your Rails app to production with automate deployment"
 img: rails-automate-deployment-with-capistrano.jpg
-tags: [Rails, DevOps]
+tags: [Ruby On Rails, DevOps]
 ---
 
 Now most of the projects hosted with [Kubenetes](https://kubernetes.io/), even so I still recommend the automate deployment with Capistrano for small or young start up in state of testing, fresh, or with low budget. Which can rollout your Rails App to production easily with less budget. that is why I start to craft this guide.
