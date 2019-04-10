@@ -4,6 +4,7 @@ title: Use UUID as primary key in Rails On Rails
 description: Tutorial to config UUID as primary key and foreign key for high scale Ruby On Rails app
 img: use-uuid-as-primary-key-in-ruby-on-rails.png
 tags: [Ruby On Rails, Postgresql, psql, Database, Tutorial, Scale]
+last_modified_at: 2019-04-10
 ---
 
 Recently with expected high scale projects, I started it by use UUID as the primary and foreign key of the tables. The result comes with a perfect high scale result. This methodology comes with [bad](#bad-side-off-it) and [good](#why-should-we-use-uuid) effect. Even so, I recommend initing project with something like this if want to have easy and flexible scaling to your app in the future. Again, I really recommend this if you think of ↗️↗️↗️
@@ -49,7 +50,7 @@ Add config to ```config/application.rb```
 {% highlight ruby %}
 ...
 config.generators do |g|
-  g.orm :active_record, primary_key_type: :uuid
+  g.orm :active_record, primary_key_type: :uuid, foreign_key_type: :uuid
 end
 ...
 {% endhighlight %}
