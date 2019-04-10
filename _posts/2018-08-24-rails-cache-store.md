@@ -4,6 +4,7 @@ title: "Rails Cache Stores to consider"
 description: "List of Rails cache stores for make decision for your project"
 img: rails-cache-stores-to-consider.jpg
 tags: [Ruby On Rails, Cache, Performance, Comparation]
+last_modified_at: 2019-04-10
 ---
 
 # Rails Cache Stores to consider
@@ -57,9 +58,11 @@ config.cache_store = :mem_cache_store
 ### 5. Redis Cache Store
 The cache will be stored on the **redis server**. Also, you need to integrate with `gem redis` for this cache store. Redis have known as a fast performance dataset that has been used as the database. This store count as the most advanced Rails cache store which is popular for all production application.
 
+I also recommend to use `gem hiredis` for faster redis connection.
+
 **Configuration**
 {% highlight ruby %}
-config.cache_store = :mem_cache_store
+config.cache_store = :redis_cache_store
 {% endhighlight %}
 
 <br>
