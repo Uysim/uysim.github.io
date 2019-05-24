@@ -1,0 +1,41 @@
+$border-color: #dddddd;
+
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  border-color: $border-color;
+}
+
+table td {
+  border-top: 1px solid $border-color;
+}
+
+table td, table th {
+  padding: 8px
+}
+// table tbody td {
+//   font-size: 13px;
+// }
+
+table thead {
+  border-bottom: 1px solid $border-color;
+}
+
+table thead th {
+  font-weight: bold;
+}
+
+
+
+table tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background: #d0e4f5;
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444;
+}
+table tfoot td {
+  font-size: 14px;
+}
