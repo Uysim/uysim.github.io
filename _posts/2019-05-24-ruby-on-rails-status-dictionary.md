@@ -75,3 +75,5 @@ Sometimes, we get lost in the middle of finding the correct symbol. So here I li
 |  505 | HTTP Version Not Supported | :http_version_not_supported |
 |  507 | Insufficient Storage | :insufficient_storage |
 |  510 | Not Extended |  |
+
+{% include rails_advices.html %}
