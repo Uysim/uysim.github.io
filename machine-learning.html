@@ -1,0 +1,17 @@
+---
+layout: main
+title: Machine Learning
+description: Machine Learning work that I have done
+---
+<div>
+  <h1>Machine Learning</h1>
+  <p>Currently I am taking path toward datascient. This page is the collection what I have done about it</p>
+</div>
+
+{% for post in site.machinelearnings %}
+  {% if post.permalink %}
+    {% include external_post.html %}
+  {% else %}
+    {% include internal_post.html %}
+  {% endif %}
+{% endfor %}
