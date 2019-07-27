@@ -152,3 +152,5 @@ All you file will be stored under folder `/public/uploads`
 
 # Final Notice
 This post is not a comparison pick it at your own choice. I just introduce the way we should use it.
+
+{% include rails_advices.html %}
