@@ -40,4 +40,6 @@ collections:
   machinelearnings:
     output: true
 
+version: 1.0.1
+
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

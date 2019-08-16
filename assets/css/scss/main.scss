@@ -1,6 +1,7 @@
 @import 'components/link';
 @import 'components/ads_quote';
 @import 'components/table';
+@import 'components/advertisements';
 
 @import 'normalize';
 @import 'syntax';
@@ -70,8 +71,12 @@ pre {
 }
 
 .wrapper {
-  max-width: 1250px;
+  // max-width: 1250px;
   position: relative;
+  @media (min-width:800px) {
+    display: flex;
+  }
+
 }
 
 .post, .article-page {

@@ -40,7 +40,7 @@ For the file store is not so popular. It is not easy to see every day in the nor
 
 **Configuration**
 {% highlight ruby %}
-config.cache_store = :file_store
+config.cache_store = :file_store, "path/to/cache/folder"
 {% endhighlight %}
 
 <br>

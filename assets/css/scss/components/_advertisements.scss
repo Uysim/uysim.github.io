@@ -1,0 +1,42 @@
+.content-box {
+  .adsense {
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    .adBlock {
+      width: 300px;
+      height: 100px;
+    }
+    @media (min-width:500px) {
+      .adBlock {
+        width: 468px;
+        height: 60px;
+      }
+    }
+    @media (min-width:800px) {
+      .adBlock {
+        width: 728px;
+        height: 90px;
+      }
+    }
+  }
+}
+
+
+#right-sidebar {
+  display: none;
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  margin-top: 20px;
+  .adBlock {
+    display: none;
+  }
+  @media (min-width:800px) {
+    display: flex;
+    .adBlock {
+      display: block;
+      width: 300px;
+      height: 1050px;
+    }
+  }
+}
