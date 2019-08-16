@@ -13,7 +13,6 @@ site-twitter: https://twitter.com/Uysim1 #if your site has a twitter account, en
 # Author Settings
 author: Uysim Ty # add your name
 author-img: avatar.jpg # add your photo
-about-author: "Learning and Develop.\n Feedback and Improvement.\n Delivery with Quality."
 social-img: 'social-image.jpg'
 social-twitter: null # add your Twitter handle
 social-facebook: uysim # add your Facebook handle
@@ -40,6 +39,6 @@ collections:
   machinelearnings:
     output: true
 
-version: 1.0.1
+version: 1.0.2
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

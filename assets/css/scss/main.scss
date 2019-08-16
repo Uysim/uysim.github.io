@@ -1,3 +1,5 @@
+@import 'variables';
+
 @import 'components/link';
 @import 'components/ads_quote';
 @import 'components/table';
@@ -5,7 +7,6 @@
 
 @import 'normalize';
 @import 'syntax';
-@import 'variables';
 
 
 *, *::after, *::before {

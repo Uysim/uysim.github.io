@@ -1,3 +1,8 @@
+/* 0, 640px */
+/* 641px, 1024px */
+/* 1025px, 1440px */
+/* 1441px, 1920px */
+/* 1921px */
 a {
   text-decoration: none;
 }
@@ -6,6 +11,7 @@ a {
   border: 2px solid #515151;
   color: #515151;
   padding: 10px;
+  font-size: 12px;
 }
 
 .ads-quote {
@@ -61,14 +67,14 @@ table tfoot td {
   height: 100px;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 768px) {
   .content-box .adsense .adBlock {
     width: 468px;
     height: 60px;
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 992px) {
   .content-box .adsense .adBlock {
     width: 728px;
     height: 90px;
@@ -77,7 +83,6 @@ table tfoot td {
 
 #right-sidebar {
   display: none;
-  width: 100%;
   max-width: 300px;
   margin: 10px;
   margin-top: 20px;
@@ -87,7 +92,21 @@ table tfoot td {
   display: none;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 992px) {
+  #right-sidebar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #right-sidebar .adBlock {
+    display: block;
+    width: 160px;
+    height: 600px;
+  }
+}
+
+@media (min-width: 1300px) {
   #right-sidebar {
     display: -webkit-box;
     display: -webkit-flex;
@@ -880,11 +899,6 @@ template {
   color: #999;
 }
 
-/* 0, 640px */
-/* 641px, 1024px */
-/* 1025px, 1440px */
-/* 1441px, 1920px */
-/* 1921px */
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1011,7 +1025,7 @@ pre code {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 240px;
+  width: 200px;
   height: 100%;
   padding: 20px 10px;
   background-color: #ffffff;
@@ -1060,7 +1074,7 @@ pre code {
 }
 
 .about p {
-  font-size: 16px;
+  font-size: 12px;
   margin: 0 0 10px;
 }
 
@@ -1074,8 +1088,8 @@ pre code {
 }
 
 .content-box {
-  padding: 20px;
-  padding-left: 260px;
+  padding: 15px;
+  padding-left: 210px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
