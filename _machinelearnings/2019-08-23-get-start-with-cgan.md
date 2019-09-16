@@ -5,4 +5,5 @@ description: Kernel for understanding conditional GAN for beginner
 img: get-start-with-gan.jpg
 permalink: https://www.kaggle.com/uysimty/get-start-with-cgan
 tags: [MachineLearning]
+sitemap: false
 ---

@@ -5,4 +5,5 @@ description: My first hand on Text Classification. I will use Tensorflow and Ker
 img: simple-toxicity-classification.png
 permalink: https://www.kaggle.com/uysimty/simple-toxicity-classification
 tags: [MachineLearning]
+sitemap: false
 ---

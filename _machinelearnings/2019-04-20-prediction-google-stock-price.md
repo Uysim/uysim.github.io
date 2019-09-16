@@ -5,4 +5,5 @@ description: Case study of time series prediction with Google Stock price for be
 img: google-stock-price-prediction.jpeg
 permalink: https://www.kaggle.com/uysimty/keras-predict-google-stock-using-lstm
 tags: [MachineLearning]
+sitemap: false
 ---
