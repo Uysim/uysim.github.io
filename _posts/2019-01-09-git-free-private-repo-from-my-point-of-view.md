@@ -8,6 +8,8 @@ tags: [Git, Review, Compare, GitHub, GitLab, BitBucket]
 
 As a [freelancer web consultant](https://www.upwork.com/o/profiles/users/_~019c06dd3d4065a0ac/), there is important to keep our client code base in private repositories. With the client that has a high budget, that is easy because can buy private repositories and integrate with premium and enterprise tools that extend more quality to the project. But instead, if client come with the low budget, none technical or just testing their startup idea then we need a free private repositories solution for them. So all of this page contents come from my experiences with the free private repository..
 
+<!-- ad -->
+
 Recently, Github allows the user to create the private repositories for free [(Check Here)](https://github.com/pricing). Which [GitLab](https://gitlab.com) and [BitBucket](https://bitbucket.org) have been providing this for a long time. I am happy to see that as I like the good performance of Github.
 
 So immediately something come to my mind. Should I move my private repositories to GitHub? Absolutely, Yes and No (🤣🤣🤣). My answer seems a little bit confusing but it came with the reason.

@@ -77,3 +77,5 @@ Sometimes, we get lost in the middle of finding the correct symbol. So here I li
 |  510 | Not Extended |  |
 
 {% include rails_advices.html %}
+
+<!-- ad -->

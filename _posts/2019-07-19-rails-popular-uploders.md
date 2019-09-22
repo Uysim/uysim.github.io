@@ -8,6 +8,8 @@ tags: [Ruby On Rails, Gem]
 
 It is common for web application that need to upload images, documents or other files. Implement your own uploader or pick the wrong libraries will hurt yourself in the future scale. So that why in this blog post in introduce 3 popular uploader gem.
 
+<!-- ad -->
+
 You can found the full source code at [https://github.com/Uysim/rails-uploaders](https://github.com/Uysim/rails-uploaders).
 
 

@@ -11,6 +11,8 @@ last_modified_at: 2019-04-10
 
 Rails app performance is a serious issue for mid-level startup. The big mess in project develops quality block you away from improving you app speed. To me,  a short-term solution is caching. The method I prefer to use for existing project when the client wants to improve performance immediately while project scope is out of your hand.
 
+<!-- ad -->
+
 As a Rails developer, we can see how to develop friendly of Rails cache. Along with this we also need to make the decision on our cache store as well. This is why I list the Rails cache store below that help you to make a decision for your rails project
 
 <br>

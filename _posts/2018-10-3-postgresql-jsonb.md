@@ -8,6 +8,8 @@ tags: [PostgreSQL, Database]
 
 I believe if you are in Postgres Community, you will know about powerful PSQL is. I have worked across multiple databases include PostgreSQL, MySQL, and Mongo DB buy recently I take advantage of PostgreSQL JSONB that's why I decided to craft this blog.
 
+<!-- ad -->
+
 ### What is Postgres JSONB
 JONB is one of the data types in PostgreSQL that allow saving JSON object into it. It also has features to allow you to select query and update it later with fast performance.
 

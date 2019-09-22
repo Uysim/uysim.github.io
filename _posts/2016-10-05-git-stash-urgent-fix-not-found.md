@@ -8,6 +8,8 @@ tags: [Git]
 
 Git version control is a popular version control for modern developer. As a ROR developer I am frequently use git stash. Sometime when an urgent fix come out I stash my changed and switch to other branch in order to fix it. Then I start to feel that git stash is dangerous as it only store code temporarily and easier to clean by git stash clear. So I found a solution and I write in this post here.
 
+<!-- ad -->
+
 ### Bad stash
 
 * Stash when we don't want to commit our half working to repo.

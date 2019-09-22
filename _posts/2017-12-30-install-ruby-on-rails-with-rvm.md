@@ -9,6 +9,8 @@ tags: [Ruby On Rails, Ruby, RVM, Beginner]
 
 This is just a simple tutorial for fresh start Ruby On Rails developer to install it. For Ubuntu and MacOS.
 
+<!-- ad -->
+
 
 ### Install RVM
 ```

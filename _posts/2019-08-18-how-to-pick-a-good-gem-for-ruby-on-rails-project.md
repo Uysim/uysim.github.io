@@ -9,6 +9,8 @@ tags: [Ruby On Rails, Gem]
 
 For years in Ruby on Rails development, I notice this developer can have advantages of its community by its reach gems. Those gems are helpful and rich features. Even so, I heard from some newbie that mentioned about some awful gems. I decided to take look. Oh no! some gems have never committed for years, some are deprecated and inactive.
 
+<!-- ad -->
+
 A lot of my connection ask me about how do I pick a gem? So that why in this blog post I will describe some audition before I make decisions to use that gem. Below are the questions to ask before you pick a gem.
 
 ### Is it popular?

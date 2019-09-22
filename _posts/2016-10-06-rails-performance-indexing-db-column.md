@@ -8,6 +8,8 @@ tags: [Ruby On Rails, Database, Performance]
 
 With my latest few projects, I practice on how to improve rails performance. With this blog, I would like to introduce a basic practice to improve query performance in rails by index table column.
 
+<!-- ad -->
+
 ### What is database indexing?
 
 Indexing is the way that database store data structure by stored and associated with the actual record, which will make records easier and faster to find in the table.

@@ -9,6 +9,8 @@ last_modified_at: 2019-04-10
 
 Recently with expected high scale projects, I started it by use UUID as the primary and foreign key of the tables. The result comes with a perfect high scale result. This methodology comes with [bad](#bad-side-off-it) and [good](#why-should-we-use-uuid) effect. Even so, I recommend initing project with something like this if want to have easy and flexible scaling to your app in the future. Again, I really recommend this if you think of ↗️↗️↗️
 
+<!-- ad -->
+
 > ***Note***: Tutorial below use specific between Ruby On Rails and Postgresql
 
 ### Why should we use UUID?

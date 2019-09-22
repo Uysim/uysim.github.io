@@ -10,6 +10,8 @@ This is a gist to help some developers. It uses to set the timezone for each use
 
 In around each request we set timezone base on that scope. It is matched for both cases read and write time into the database.
 
+<!-- ad -->
+
 Normally, when we set the timezone
 
 ```ruby

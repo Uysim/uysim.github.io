@@ -8,6 +8,8 @@ tags: [Ruby On Rails, Tips]
 
 When working with a none technical person, it is really difficult to identify the problem of SMTP config. It hard to define because the credentials or our config is wrong. Also, we don't want to config and release it then user spot it is not working. So I create a snippet that can test the SMTP from rails console before you release it.
 
+<!-- ad -->
+
 Start your rails console by type ```rails c``` on your terminal.
 
 Config your Mailer.

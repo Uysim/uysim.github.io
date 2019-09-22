@@ -7,6 +7,8 @@ tags: [Ruby On Rails, Ruby, Comparation]
 ---
 In rails to handle complex query, developers always chain query with scope and class methods. There are many online articles talk about fighting between scope and class method. Those articles talk about when you use them. For my personal experience I really like chain the scope and class method to handle complex query by split their own responsibility for each scope and class method.
 
+<!-- ad -->
+
 ### What is scope?
 
 Scope is a technique used in activerecord for query purpose to return activerecord relation.

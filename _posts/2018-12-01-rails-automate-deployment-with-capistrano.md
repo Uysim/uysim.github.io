@@ -8,6 +8,8 @@ tags: [Ruby On Rails, DevOps]
 
 Now most of the projects hosted with [Kubenetes](https://kubernetes.io/), even so I still recommend the automate deployment with Capistrano for small or young start up in state of testing, fresh, or with low budget. Which can rollout your Rails App to production easily with less budget. that is why I start to craft this guide.
 
+<!-- ad -->
+
 What you may need
 - Linux Server (Remmend Ubuntu)
 - [Rails 5+ with RVM](http://uysim.com/install-ruby-on-rails-with-rvm/)
