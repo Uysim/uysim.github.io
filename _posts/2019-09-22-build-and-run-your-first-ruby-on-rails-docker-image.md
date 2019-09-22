@@ -8,6 +8,8 @@ tags: [Ruby On Rails, Docker, Gist, Tip, Sample]
 
 In the recent year, the Ruby On Rails deployment has been shift from tranditional linux server to dockerization. Even myself has stop deploy Rails to production with linux server anymore. So in this blog I would like to help some starter to dockerize their Rails app with these simple step below.
 
+<!-- ad -->
+
 Requirements
 
 * Installed docker
